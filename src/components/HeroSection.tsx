@@ -1,0 +1,117 @@
+import { motion } from "framer-motion";
+import { ArrowDown, Github, Linkedin, Download } from "lucide-react";
+
+const stats = [
+  { number: "15+", label: "Apps Shipped" },
+  { number: "10+", label: "On Play/App Store" },
+  { number: "6", label: "Industries" },
+];
+
+const HeroSection = () => {
+  return (
+    <section className="relative min-h-screen flex items-center overflow-hidden">
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full opacity-20 blur-[120px] bg-primary pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full opacity-10 blur-[100px] bg-primary pointer-events-none" />
+
+      <div className="container relative z-10">
+        <div className="max-w-3xl">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="flex items-center gap-3 mb-8"
+          >
+            <div className="h-px w-12 bg-primary" />
+            <span className="text-primary font-body text-sm tracking-widest uppercase">
+              Flutter Developer
+            </span>
+          </motion.div>
+
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="font-heading text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] mb-8"
+          >
+            I build apps that{" "}
+            <span className="text-gradient italic">businesses</span>
+            <br />
+            actually run on.
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.25 }}
+            className="text-muted-foreground text-lg md:text-xl max-w-xl mb-12 font-body leading-relaxed"
+          >
+            15+ production apps across e-commerce, legal-tech, agri-tech, HR,
+            and education. From idea to Play Store — I ship products that solve
+            real problems.
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.35 }}
+            className="flex flex-wrap items-center gap-4 mb-16"
+          >
+            <a
+              href="#projects"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg font-body font-medium text-sm tracking-wide hover:opacity-90 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+            >
+              View Case Studies
+              <ArrowDown className="w-4 h-4" />
+            </a>
+            <a
+              href="/resume.pdf"
+              download
+              className="inline-flex items-center gap-2 border border-primary/30 text-primary px-6 py-4 rounded-lg font-body font-medium text-sm tracking-wide hover:bg-primary/10 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+            >
+              <Download className="w-4 h-4" />
+              Resume
+            </a>
+            <div className="flex items-center gap-4 ml-2">
+              <a
+                href="https://github.com/arunkumawatak"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Github className="w-5 h-5" />
+              </a>
+              <a
+                href="https://linkedin.com/in/arunkumawatak"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="flex gap-12"
+          >
+            {stats.map((stat) => (
+              <div key={stat.label}>
+                <div className="font-heading text-3xl md:text-4xl text-gradient font-bold">
+                  {stat.number}
+                </div>
+                <div className="text-muted-foreground text-xs tracking-wider uppercase mt-1 font-body">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
