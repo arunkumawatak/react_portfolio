@@ -28,7 +28,7 @@ export const projects: Project[] = [
     tech: ["Flutter", "Firebase", "WebRTC", "Payment Gateway", "Push Notifications"],
     playStore: "https://play.google.com/store/search?q=consultkiya&c=apps",
     featured: true,
-    image: "", // TODO: Add your image import here
+    image: "src/assets/Free_App.png", 
     companyId: "freelance",
     contribution: "Led end-to-end development of both User and Lawyer apps, implemented WebRTC video calls, and integrated payment gateway for seamless transactions.",
     gallery: [], // TODO: Add gallery image imports here
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     playStore: "https://play.google.com/store/apps/details?id=com.nway.hrm.ios",
     appStore: "https://apps.apple.com/in/app/nway-hrms/id6742221199",
     featured: true,
-    image: "", // TODO: Add your image import here
+    image: "src/assets/project-nway.png", // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Architected the geofencing attendance system, built multi-level approval workflows, and deployed to both app stores.",
     gallery: [],

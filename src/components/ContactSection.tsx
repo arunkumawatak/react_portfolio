@@ -76,7 +76,7 @@ const ContactSection = () => {
             </p>
 
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/uc?export=download&id=1wPwPyu5x7rJmbfHF1ZOuoNqZ6PPCHNVz"
               download
               className="inline-flex items-center gap-2 border border-primary/30 text-primary px-6 py-3 rounded-lg font-body font-medium text-sm tracking-wide hover:bg-primary/10 transition-colors mb-10"
             >
@@ -86,11 +86,11 @@ const ContactSection = () => {
 
             <div className="flex gap-6 mt-2">
               <a
-                href="mailto:arunkumawatak@gmail.com"
+                href="mailto:arunkumawat8989@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 font-body text-sm"
               >
                 <Mail className="w-4 h-4" />
-                arunkumawatak@gmail.com
+                arunkumawat8989@gmail.com
               </a>
             </div>
             <div className="flex gap-6 mt-4">
@@ -98,7 +98,7 @@ const ContactSection = () => {
                 <Github className="w-4 h-4" />
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/arunkumawatak" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 font-body text-sm">
+              <a href="https://www.linkedin.com/in/arun-kumawat-28bb86267" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 font-body text-sm">
                 <Linkedin className="w-4 h-4" />
                 LinkedIn
               </a>

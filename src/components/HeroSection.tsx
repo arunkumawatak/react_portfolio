@@ -31,7 +31,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="font-heading text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] mb-8"
+            className="font-heading text-5xl md:text-7xl lg:text-7xl font-bold leading-[0.95] mb-8"
           >
             I build apps that{" "}
             <span className="text-gradient italic">businesses</span>
@@ -43,7 +43,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.25 }}
-            className="text-muted-foreground text-lg md:text-xl max-w-xl mb-12 font-body leading-relaxed"
+            className="text-muted-foreground text-lg md:text-xl max-w-xl mb-8 font-body leading-relaxed"
           >
             15+ production apps across e-commerce, legal-tech, agri-tech, HR,
             and education. From idea to Play Store — I ship products that solve
@@ -54,7 +54,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.35 }}
-            className="flex flex-wrap items-center gap-4 mb-16"
+            className="flex flex-wrap items-center gap-4 mb-8"
           >
             <a
               href="#projects"
@@ -64,13 +64,16 @@ const HeroSection = () => {
               <ArrowDown className="w-4 h-4" />
             </a>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/uc?export=download&id=1wPwPyu5x7rJmbfHF1ZOuoNqZ6PPCHNVz"
+
+
               download
               className="inline-flex items-center gap-2 border border-primary/30 text-primary px-6 py-4 rounded-lg font-body font-medium text-sm tracking-wide hover:bg-primary/10 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
             >
               <Download className="w-4 h-4" />
               Resume
             </a>
+
             <div className="flex items-center gap-4 ml-2">
               <a
                 href="https://github.com/arunkumawatak"
@@ -81,7 +84,7 @@ const HeroSection = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com/in/arunkumawatak"
+                href="https://www.linkedin.com/in/arun-kumawat-28bb86267"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -107,6 +110,7 @@ const HeroSection = () => {
                 </div>
               </div>
             ))}
+
           </motion.div>
         </div>
       </div>

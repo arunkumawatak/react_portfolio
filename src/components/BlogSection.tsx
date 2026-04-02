@@ -10,7 +10,7 @@ const BlogSection = () => {
   const latest = getLatestPosts(3);
 
   return (
-    <section ref={ref} className="py-24 border-t border-border">
+    <section ref={ref} className="py-24 border-t border-border" id="blog">
       <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
