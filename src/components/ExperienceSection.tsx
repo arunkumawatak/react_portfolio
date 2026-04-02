@@ -27,7 +27,7 @@ const ExperienceSection = () => {
               </span>
             </div>
             <h2 className="font-heading text-3xl md:text-5xl">
-              4+ years of <span className="italic text-gradient">shipping.</span>
+              3+ years of <span className="italic text-gradient">shipping.</span>
             </h2>
           </div>
 
