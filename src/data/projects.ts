@@ -1,3 +1,20 @@
+import indhanpayImg from "@/assets/project-indhanpay.png";
+import nwayImg from "@/assets/project-nway.png";
+import consultkiyaImg from "@/assets/Free_App.png";
+import gamersGiftImg from "@/assets/gamersGIft.png";
+import dawaBajarImg from "@/assets/project-dawabajar.jpg";
+import greenChopperImg from "@/assets/project-greenchopper.png";
+import eduSmartImg from "@/assets/project-edusmart.png";
+import deluxCarImg from "@/assets/project-deluxcar.jpg";
+import dueDateMateImg from "@/assets/project-duedatemate.png";
+import qSmartImg from "@/assets/project-qsmart.png";
+import krateasyImg from "@/assets/project-krateasy.jpg";
+import kisan4uImg from "@/assets/project-k4u.jpg";
+import belloRiccoImg from "@/assets/project-belloricco.jpg";
+import scrollguard from "@/assets/project-scrollguard.png";
+import livewallpaper from "@/assets/project-livewallpaper.png";
+
+
 export interface Project {
   id: string;
   title: string;
@@ -28,7 +45,7 @@ export const projects: Project[] = [
     tech: ["Flutter", "Firebase", "WebRTC", "Payment Gateway", "Push Notifications"],
     playStore: "https://play.google.com/store/search?q=consultkiya&c=apps",
     featured: true,
-    image: "src/assets/project-indhanpay.png",
+    image:  indhanpayImg,
     companyId: "freelance",
     contribution: "Led end-to-end development of both User and Lawyer apps, implemented WebRTC video calls, and integrated payment gateway for seamless transactions.",
     gallery: [], // TODO: Add gallery image imports here
@@ -46,7 +63,7 @@ export const projects: Project[] = [
     playStore: "https://play.google.com/store/apps/details?id=com.nway.hrm.ios",
     appStore: "https://apps.apple.com/in/app/nway-hrms/id6742221199",
     featured: true,
-    image: "src/assets/project-nway.png", // TODO: Add your image import here
+    image:nwayImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Architected the geofencing attendance system, built multi-level approval workflows, and deployed to both app stores.",
     gallery: [],
@@ -61,8 +78,8 @@ export const projects: Project[] = [
     impact: "Dual app serving both sides of the marketplace. Live on Play Store with real-time consultation capability.",
     tech: ["Flutter", "Firebase", "WebRTC", "Payment Gateway", "Push Notifications"],
     playStore: "https://play.google.com/store/search?q=consultkiya&c=apps",
-    featured: true,
-    image: "src/assets/Free_App.png",
+    featured: false,
+    image: consultkiyaImg,
     companyId: "freelance",
     contribution: "Led end-to-end development of both User and Lawyer apps, implemented WebRTC video calls, and integrated payment gateway for seamless transactions.",
     gallery: [], // TODO: Add gallery image imports here
@@ -76,7 +93,7 @@ export const projects: Project[] = [
     impact: "Multi-role SaaS platform actively used by educational institutions.",
     tech: ["Flutter", "Firebase", "Chat System", "Role-based Auth"],
     playStore: "https://play.google.com/store/apps/details?id=com.encanto.edusmart",
-    image: "src/assets/gamersGIft.png", // TODO: Add your image import here
+    image: gamersGiftImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Built the entire multi-role SaaS platform with role-based dashboards, real-time attendance, and in-app chat system.",
     gallery: [],
@@ -91,7 +108,7 @@ export const projects: Project[] = [
     impact: "Streamlined ordering for pharmacies. Cashfree-integrated payments processing real transactions.",
     tech: ["Flutter", "Cashfree", "Firebase", "Real-time Notifications"],
     playStore: "https://play.google.com/store/apps/details?id=com.encanto.dawabajar",
-    image: "src/assets/project-dawabajar.jpg", // TODO: Add your image import here
+    image: dawaBajarImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Built the complete B2B marketplace from scratch including Cashfree payment integration and real-time inventory management.",
     gallery: [],
@@ -107,7 +124,7 @@ export const projects: Project[] = [
     tech: ["Flutter", "Firebase", "Payment Gateway", "Google Maps API"],
     playStore: "https://play.google.com/store/apps/details?id=com.greenchopper.android",
     appStore: "https://apps.apple.com/in/app/greenchopper/id6474066136",
-    image: "src/assets/project-greenchopper.png", // TODO: Add your image import here
+    image:greenChopperImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Developed the full e-commerce flow including Google Maps delivery tracking, payment integration, and order management.",
     gallery: [],
@@ -122,7 +139,7 @@ export const projects: Project[] = [
     impact: "Multi-role SaaS platform actively used by educational institutions.",
     tech: ["Flutter", "Firebase", "Chat System", "Role-based Auth"],
     playStore: "https://play.google.com/store/apps/details?id=com.encanto.edusmart",
-    image: "src/assets/project-edusmart.png", // TODO: Add your image import here
+    image:eduSmartImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Built the entire multi-role SaaS platform with role-based dashboards, real-time attendance, and in-app chat system.",
     gallery: [],
@@ -137,7 +154,7 @@ export const projects: Project[] = [
     impact: "Streamlined ordering for pharmacies. Cashfree-integrated payments processing real transactions.",
     tech: ["Flutter", "Cashfree", "Firebase", "Real-time Notifications"],
     playStore: "https://play.google.com/store/apps/details?id=com.encanto.dawabajar",
-    image: "src/assets/project-deluxcar.jpg", // TODO: Add your image import here
+    image:deluxCarImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Built the complete B2B marketplace from scratch including Cashfree payment integration and real-time inventory management.",
     gallery: [],
@@ -153,7 +170,7 @@ export const projects: Project[] = [
     impact: "Streamlined ordering for pharmacies. Cashfree-integrated payments processing real transactions.",
     tech: ["Flutter", "Cashfree", "Firebase", "Real-time Notifications"],
     playStore: "https://play.google.com/store/apps/details?id=com.encanto.dawabajar",
-    image: "src/assets/project-duedatemate.png", // TODO: Add your image import here
+    image: dueDateMateImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Built the complete B2B marketplace from scratch including Cashfree payment integration and real-time inventory management.",
     gallery: [],
@@ -170,7 +187,7 @@ export const projects: Project[] = [
     impact: "Streamlined ordering for pharmacies. Cashfree-integrated payments processing real transactions.",
     tech: ["Flutter", "Cashfree", "Firebase", "Real-time Notifications"],
     playStore: "https://play.google.com/store/apps/details?id=com.encanto.dawabajar",
-    image: "src/assets/project-qsmart.png", // TODO: Add your image import here
+    image: qSmartImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Built the complete B2B marketplace from scratch including Cashfree payment integration and real-time inventory management.",
     gallery: [],
@@ -186,7 +203,7 @@ export const projects: Project[] = [
     impact: "Streamlined ordering for pharmacies. Cashfree-integrated payments processing real transactions.",
     tech: ["Flutter", "Cashfree", "Firebase", "Real-time Notifications"],
     playStore: "https://play.google.com/store/apps/details?id=com.encanto.dawabajar",
-    image: "src/assets/project-krateasy.jpg", // TODO: Add your image import here
+    image:krateasyImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Built the complete B2B marketplace from scratch including Cashfree payment integration and real-time inventory management.",
     gallery: [],
@@ -204,7 +221,7 @@ export const projects: Project[] = [
     impact: "Streamlined ordering for pharmacies. Cashfree-integrated payments processing real transactions.",
     tech: ["Flutter", "Cashfree", "Firebase", "Real-time Notifications"],
     playStore: "https://play.google.com/store/apps/details?id=com.encanto.dawabajar",
-    image: "src/assets/project-k4u.jpg", // TODO: Add your image import here
+    image:kisan4uImg, // TODO: Add your image import here
     companyId: "freelance",
     contribution: "Built the complete B2B marketplace from scratch including Cashfree payment integration and real-time inventory management.",
     gallery: [],
@@ -219,8 +236,39 @@ export const projects: Project[] = [
     impact: "Streamlined ordering for pharmacies. Cashfree-integrated payments processing real transactions.",
     tech: ["Flutter", "Cashfree", "Firebase", "Real-time Notifications"],
     playStore: "https://play.google.com/store/apps/details?id=com.encanto.dawabajar",
-    image: "src/assets/project-belloricco.jpg", // TODO: Add your image import here
+    image:belloRiccoImg, // TODO: Add your image import here
     companyId: "freelance",
+    contribution: "Built the complete B2B marketplace from scratch including Cashfree payment integration and real-time inventory management.",
+    gallery: [],
+  },
+
+
+    {
+    id: "scrollguard",
+    title: "Scroll Guard",
+    subtitle: "B2B Pharma E-commerce",
+    description: "B2B pharmaceutical marketplace with Cashfree integration and real-time inventory.",
+    problem: "Medical suppliers lacked a digital platform for bulk medicine ordering with secure payments.",
+    solution: "Built a B2B pharmaceutical marketplace with Cashfree integration and real-time inventory notifications.",
+    impact: "Streamlined ordering for pharmacies. Cashfree-integrated payments processing real transactions.",
+    tech: ["Flutter", "Cashfree", "Firebase", "Real-time Notifications"],
+    playStore: "https://play.google.com/store/apps/details?id=com.encanto.dawabajar",
+    image:scrollguard, // TODO: Add your image import here
+    companyId: "personal",
+    contribution: "Built the complete B2B marketplace from scratch including Cashfree payment integration and real-time inventory management.",
+    gallery: [],
+  }, {
+    id: "livewallpaper",
+    title: "Live wallpaper",
+    subtitle: "B2B Pharma E-commerce",
+    description: "B2B pharmaceutical marketplace with Cashfree integration and real-time inventory.",
+    problem: "Medical suppliers lacked a digital platform for bulk medicine ordering with secure payments.",
+    solution: "Built a B2B pharmaceutical marketplace with Cashfree integration and real-time inventory notifications.",
+    impact: "Streamlined ordering for pharmacies. Cashfree-integrated payments processing real transactions.",
+    tech: ["Flutter", "Cashfree", "Firebase", "Real-time Notifications"],
+    playStore: "https://play.google.com/store/apps/details?id=com.encanto.dawabajar",
+    image:livewallpaper, // TODO: Add your image import here
+    companyId: "personal",
     contribution: "Built the complete B2B marketplace from scratch including Cashfree payment integration and real-time inventory management.",
     gallery: [],
   },
