@@ -65,8 +65,6 @@ const HeroSection = () => {
             </a>
             <a
               href="https://drive.google.com/uc?export=download&id=1wPwPyu5x7rJmbfHF1ZOuoNqZ6PPCHNVz"
-
-
               download
               className="inline-flex items-center gap-2 border border-primary/30 text-primary px-6 py-4 rounded-lg font-body font-medium text-sm tracking-wide hover:bg-primary/10 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
             >
