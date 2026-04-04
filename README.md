@@ -12,7 +12,7 @@ A premium, dark-themed developer portfolio built with React, TypeScript, Tailwin
 
 ## 🔗 Live Preview
 
-> **[arunkumawatak.github.io/portfolio](https://arunkumawatak.github.io/portfolio/)**
+> **[arunkumawatak.github.io/react_portfolio](https://arunkumawatak.github.io/react_portfolio/)**
 
 ---
 
@@ -103,7 +103,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/arunkumawatak/portfolio.git
+git clone https://github.com/arunkumawatak/react_portfolio/
 cd portfolio
 
 # Install dependencies
@@ -191,5 +191,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Arun Kumawat**
 - GitHub: [@arunkumawatak](https://github.com/arunkumawatak)
-- LinkedIn: [/in/arunkumawatak](https://linkedin.com/in/arunkumawatak)
-- Email: arunkumawatak@gmail.com
+- LinkedIn: [/in/arunkumawat](linkedin.com/in/arun-kumawat-28bb86267)
+- Email: arunkumawat8989@gmail.com
