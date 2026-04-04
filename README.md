@@ -18,13 +18,11 @@ A premium, dark-themed developer portfolio built with React, TypeScript, Tailwin
 
 ## 📸 Screenshots
 
-<!-- Add your screenshots here -->
-<!-- Example: -->
-<!-- ![Hero Section](./screenshots/hero.png) -->
-<!-- ![Projects Section](./screenshots/projects.png) -->
-<!-- ![Mobile View](./screenshots/mobile.png) -->
+<img width="1364" height="641" alt="image" src="https://github.com/user-attachments/assets/477fa9c6-6721-4f33-9b81-f99f2ec5fe9e" />
 
-> _Screenshots coming soon_
+<img width="1350" height="637" alt="image" src="https://github.com/user-attachments/assets/6148f21d-f08f-4c67-bbb4-1984d403ab67" />
+<img width="1356" height="638" alt="image" src="https://github.com/user-attachments/assets/c5f42c11-a274-4af2-a4c4-07122de14b0f" />
+
 
 ---
 
