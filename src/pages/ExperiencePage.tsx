@@ -37,7 +37,7 @@ const ExperiencePage = () => {
               </span>
             </div>
             <h1 className="font-heading text-4xl md:text-6xl">
-              3+ years of <span className="italic text-gradient">shipping.</span>
+              2.5+ years of <span className="italic text-gradient">shipping.</span>
             </h1>
           </motion.div>
 

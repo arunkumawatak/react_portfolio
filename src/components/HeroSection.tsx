@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Download } from "lucide-react";
 
 const stats = [
-  { number: "15+", label: "Apps Shipped" },
-  { number: "10+", label: "On Play/App Store" },
+  { number: "15+", label: "Projects" },
+  { number: "6", label: "Live Apps" },
   { number: "6", label: "Industries" },
 ];
 
@@ -23,8 +23,7 @@ const HeroSection = () => {
           >
             <div className="h-px w-12 bg-primary" />
             <span className="text-primary font-body text-sm tracking-widest uppercase">
-              Flutter Developer
-            </span>
+              Flutter Product Engineer            </span>
           </motion.div>
 
           <motion.h1
@@ -33,10 +32,10 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-heading text-5xl md:text-7xl lg:text-7xl font-bold leading-[0.95] mb-8"
           >
-            I build apps that{" "}
+            I build mobile apps that real{" "}
             <span className="text-gradient italic">businesses</span>
             <br />
-            actually run on.
+            rely on.
           </motion.h1>
 
           <motion.p
@@ -44,11 +43,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.25 }}
             className="text-muted-foreground text-lg md:text-xl max-w-xl mb-8 font-body leading-relaxed"
-          >
-            15+ production apps across e-commerce, legal-tech, agri-tech, HR,
-            and education. From idea to Play Store — I ship products that solve
-            real problems.
-          </motion.p>
+          >Delivered 15+ projects and shipped 8 production-grade apps across HRMS, legal-tech, fuel systems, and e-commerce — with 6 live on Play Store.</motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -60,7 +55,7 @@ const HeroSection = () => {
               href="#projects"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg font-body font-medium text-sm tracking-wide hover:opacity-90 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
             >
-              View Case Studies
+              View Projects
               <ArrowDown className="w-4 h-4" />
             </a>
             <a

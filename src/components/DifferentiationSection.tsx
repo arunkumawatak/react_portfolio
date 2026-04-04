@@ -1,22 +1,21 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
 const reasons = [
   {
-    title: "I ship, not just code",
-    desc: "Every project I've built is live — on real stores, used by real people. I don't make demos.",
+    title: "Production-first mindset",
+    desc: "Built and deployed 6 live apps on Play Store used in real business operations — not demos or side projects.",
   },
   {
-    title: "Cross-domain fluency",
-    desc: "E-commerce, legal-tech, agri-tech, HR, education, gaming — I understand diverse business domains.",
+    title: "Handles complex business logic",
+    desc: "Implemented GST-based pricing, multi-role workflows, credit systems, and real-world edge cases across multiple apps.",
   },
   {
-    title: "Full lifecycle ownership",
-    desc: "From architecture to App Store publishing. I handle the entire journey, not just a feature branch.",
+    title: "Full ownership delivery",
+    desc: "Handled everything from requirement understanding to deployment — including architecture, APIs, testing, and store release.",
   },
   {
-    title: "Integration specialist",
-    desc: "Payment gateways, video calls, geofencing, real-time notifications — I've built them all in production.",
+    title: "Real-world integrations",
+    desc: "Integrated payments, POS machines, geofencing, NFC, and real-time systems in production environments.",
   },
 ];
 

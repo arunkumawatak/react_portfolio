@@ -1,22 +1,41 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
 const skillCategories = [
   {
-    title: "Core",
-    skills: ["Flutter/Dart", "State Management (Provider, GetX, BLoC)", "REST API Integration", "Firebase (Auth, Firestore, FCM, Storage)"],
+    title: "Core Engineering",
+    skills: [
+      "Flutter & Dart (Production apps with complex UI + business logic)",
+      "State Management (Provider, GetX, Riverpod — based on project scale)",
+      "API Integration with error handling, retries & edge case management",
+      "Firebase (Auth, Firestore, FCM) with real-time sync"
+    ],
   },
   {
-    title: "Platform & Deployment",
-    skills: ["iOS & Android Publishing", "Play Store & App Store Optimization", "CI/CD Pipelines", "App Signing & Distribution"],
+    title: "Systems & Architecture",
+    skills: [
+      "Clean Architecture with modular, scalable codebases",
+      "Multi-role systems (Admin, Manager, User) with access control",
+      "Offline-first design with local caching & sync strategies",
+      "Handling complex business logic (GST, pricing engines, workflows)"
+    ],
   },
   {
-    title: "Integrations",
-    skills: ["Payment Gateways (Cashfree, Razorpay)", "Google Maps & Location APIs", "WebRTC / Video Calls", "Push Notifications"],
+    title: "Integrations & Real-world Systems",
+    skills: [
+      "Payment Gateways (Cashfree, Razorpay) with production flows",
+      "POS integration & device communication (PineLabs)",
+      "Geofencing, GPS tracking & real-world accuracy handling",
+      "WebRTC / Agora for real-time calls and communication"
+    ],
   },
   {
-    title: "Architecture",
-    skills: ["Clean Architecture", "Multi-role Auth Systems", "Geofencing & GPS", "Real-time Data Sync"],
+    title: "Deployment & Ownership",
+    skills: [
+      "Play Store & App Store publishing (end-to-end)",
+      "App signing, builds & release management",
+      "Performance optimization & crash handling",
+      "Full lifecycle ownership (requirement → production)"
+    ],
   },
 ];
 

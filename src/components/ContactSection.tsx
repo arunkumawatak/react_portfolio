@@ -29,17 +29,40 @@ const ContactSection = () => {
 
     setStatus("sending");
     try {
+
+      // ✅ Fetch location data
+      let locationData: any = {};
+      try {
+        const res = await fetch("https://ipapi.co/json/");
+        locationData = await res.json();
+      } catch {
+        locationData = {};
+      }
+
       await emailjs.send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_5d9xbkq",
+        "template_levr1uh",
         {
           from_name: formData.name,
-          from_email: formData.email,
+          reply_to: formData.email, // ✅ FIXED
           message: formData.message,
           to_name: "Arun Kumawat",
+
+          // ✅ extra fields
+          date_time: new Date().toLocaleString(),
+          device_info: navigator.userAgent,
+          page_url: window.location.href,
+
+          // ✅ location fields
+          ip: locationData.ip || "",
+          city: locationData.city || "",
+          region: locationData.region || "",
+          country: locationData.country_name || "",
+          org: locationData.org || "",
         },
-        "YOUR_PUBLIC_KEY"
+        "3WjbZapNU2Ps9GBV2"
       );
+
       setStatus("success");
       setFormData({ name: "", email: "", message: "" });
       setTimeout(() => setStatus("idle"), 5000);

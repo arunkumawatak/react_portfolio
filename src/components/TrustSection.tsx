@@ -2,13 +2,13 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const trusts = [
-  "Published on Google Play Store & Apple App Store",
-  "Delivered 15+ production apps for real businesses",
-  "Worked across 6+ industries — e-commerce, legal, agriculture, HR, education, hospitality",
-  "Integrated payments (Cashfree, Razorpay), POS systems & Bluetooth printing",
-  "Worked with Firebase, local databases & Google APIs (Maps, Auth, Location)",
-  "Built offline-first apps with scalable architecture & optimized performance",
-  "Shipped dual-app platforms (User + Admin/Lawyer) with real-time features",
+  "6 production apps live on Play Store, used in real business operations",
+  "Delivered 15+ client projects across HRMS, legal-tech, fuel systems, and e-commerce",
+  "Built multi-role systems (Admin, Manager, User) with complex workflows and permissions",
+  "Implemented payments (Cashfree, Razorpay), POS integrations, and real-time transactions",
+  "Developed geofencing, GPS tracking, and attendance systems handling real-world edge cases",
+  "Integrated Firebase (Auth, FCM, Firestore) with scalable state management and APIs",
+  "Handled full lifecycle — from requirements to Play Store deployment and maintenance",
 ];
 
 const TrustSection = () => {
