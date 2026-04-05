@@ -59,7 +59,7 @@ const HeroSection = () => {
               <ArrowDown className="w-4 h-4" />
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=1KFzFt9R4xQhcW6woOpsb4hqht-tA4qiw"
+              href="https://drive.google.com/uc?export=download&id=1UUNkgP9HRIO7l9mBrGIj3yY49l7Ld0Qf"
               download
               className="inline-flex items-center gap-2 border border-primary/30 text-primary px-6 py-4 rounded-lg font-body font-medium text-sm tracking-wide hover:bg-primary/10 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
             >
