@@ -99,7 +99,7 @@ const ContactSection = () => {
             </p>
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1UUNkgP9HRIO7l9mBrGIj3yY49l7Ld0Qf"
+              href="https://drive.google.com/uc?export=download&id=1gS9CBIqNCk_mJwTg080ulkzv6QFJ0hcH"
               download
               className="inline-flex items-center gap-2 border border-primary/30 text-primary px-6 py-3 rounded-lg font-body font-medium text-sm tracking-wide hover:bg-primary/10 transition-colors mb-10"
             >
