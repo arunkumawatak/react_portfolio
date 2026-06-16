@@ -41,7 +41,7 @@ A premium, dark-themed developer portfolio built with React, TypeScript, Tailwin
 
 ## 🏗️ Project Structure
 
-```
+``` 
 src/
 ├── components/
 │   ├── Navbar.tsx              # Fixed navigation with scroll-aware styling
